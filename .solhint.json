@@ -1,0 +1,14 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "compiler-fixed": false,
+    "compiler-version": ["error", "^0.8.0"],
+    "func-visibility": ["warn", { "ignoreConstructors": true }],
+    "two-lines-top-level-separator": false,
+    "quotes": ["warn", "single"],
+    "indent": ["warn", 2],
+    "func-visibility": false,
+    "no-empty-blocks": false,
+    "indent": false
+  }
+}
